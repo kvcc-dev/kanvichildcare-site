@@ -1,6 +1,7 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import FloatingContact from "../FloatingContact/FloatingContact";
+//import FloatingEducation from "../FloatingEducation/FloatingEducation";
 
 const Layout = ({ children }) => {
   return (
@@ -23,6 +24,7 @@ const Layout = ({ children }) => {
       </main>
 
       <Footer />
+      {/* <FloatingEducation /> */}
       <FloatingContact />
     </>
   );

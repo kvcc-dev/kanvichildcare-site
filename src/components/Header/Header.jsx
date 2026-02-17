@@ -12,6 +12,8 @@ const Header = () => {
     { label: "Services", href: "#services" },
     { label: "About Us", href: "#about" },
     { label: "Our Doctors", href: "#doctors" },
+    { label: "Parent Education", href: "#education" },
+
   ];
 
   return (
@@ -21,13 +23,17 @@ const Header = () => {
       <div className="flex items-center">
 
         {/* Logo */}
+        {/* Logo */}
         <div className="pl-4 md:pl-8">
-          <img
-            src="/assets/headerlogo.jpeg"
-            alt="Kanvi Child Care Hospital"
-            className="h-14 md:h-16 w-auto object-contain p-1"
-          />
+          <a href="#home" className="inline-block">
+            <img
+              src="/assets/headerlogo.png"
+              alt="Kanvi Child Care Hospital"
+              className="h-14 md:h-16 w-auto object-contain p-1 cursor-pointer"
+            />
+          </a>
         </div>
+
 
         {/* Header Content */}
         <div className="flex-1">

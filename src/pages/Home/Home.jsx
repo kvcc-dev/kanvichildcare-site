@@ -9,6 +9,7 @@ import RevealOnScroll from "../../components/RevealOnScroll/RevealOnScroll";
 import WhyKanviSection from "../../components/WhyKanviSection/WhyKanviSection";
 import ServicesSection from "../../components/ServicesSection/ServicesSection";
 import DepartmentsSection from "../../components/DepartmentsSection/DepartmentsSection";
+import EducationAccordion from "../../components/FloatingEducation/EducationAccordian";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,15 +19,23 @@ const Home = () => {
 
       {/* HERO SECTION */}
       <section id="home" className=" relative overflow-hidden
-  bg-transparent
-  py-24">
+  bg-transparent">
         <div className="max-w-6xl mx-auto px-4 text-center">
 
+          <div className="flex justify-center mb-3">
+            <img
+              src="/assets/headerlogo.png"
+              alt="Kanvi Child Care"
+              className="h-80 w-auto"
+            />
+          </div>
           {/* Hospital Name */}
-          <h1 className="text-3xl md:text-5xl font-bold text-blue-700 mb-6">
-            Kanvi Child Care<br /><br />
+          <h1 className="text-2xl md:text-4xl font-bold text-blue-700 mb-4">
+            Kanvi Child Care<br />
             Super Speciality Clinic
           </h1>
+
+
 
           {/* Care Philosophy */}
           <div
@@ -67,7 +76,7 @@ const Home = () => {
       {/*Why Kanvi Section */}
       <section id="kanvi" className=" relative overflow-hidden
   bg-transparent
-  py-24">
+  ">
         <RevealOnScroll delay={50} >
           <WhyKanviSection />
         </RevealOnScroll>
@@ -75,7 +84,7 @@ const Home = () => {
       {/* Preventive Care SECTION */}
       <section id="preventive-care" className="relative overflow-hidden
   bg-transparent
-  py-24">
+  ">
         <RevealOnScroll delay={50}>
           <PreventiveCareSection />
         </RevealOnScroll>
@@ -85,7 +94,7 @@ const Home = () => {
       {/**Departments Section */}
       <section id="department" className="relative overflow-hidden
   bg-transparent
-  py-24">
+  ">
         <RevealOnScroll delay={50}>
           <DepartmentsSection />
         </RevealOnScroll>
@@ -95,7 +104,7 @@ const Home = () => {
       {/**Services Section */}
       <section id="services" className="relative overflow-hidden
   bg-transparent
-  py-24">
+  ">
         <RevealOnScroll delay={50}>
           <ServicesSection />
         </RevealOnScroll>
@@ -104,8 +113,8 @@ const Home = () => {
       {/* ABOUT SECTION */}
       <RevealOnScroll delay={50}>
         <section className="relative overflow-hidden
-  bg-transparent
-  py-24" id="about">
+  bg-transparent mb-10
+  " id="about">
           <div className="max-w-6xl mx-auto px-4">
 
             {/* Section Heading */}
@@ -142,14 +151,23 @@ const Home = () => {
         </section>
       </RevealOnScroll>
 
+      <section
+        id="education"
+        className="relative py-20 bg-gradient-to-b from-blue-50/40 to-white border-y border-blue-100"
+      >
+        <RevealOnScroll delay={50}>
+          <EducationAccordion />
+
+        </RevealOnScroll>
+      </section>
       {/* ABOUT DOCTORS SECTION */}
 
       <section className="relative overflow-hidden
   bg-transparent
-  py-24" id="doctors">
+  " id="doctors">
         <div className="max-w-6xl mx-auto px-4">
 
-          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12">
+          <h2 className="text-2xl md:text-3xl font-semibold text-center m-6">
             Our Doctors
           </h2>
 

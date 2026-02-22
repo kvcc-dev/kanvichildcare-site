@@ -78,6 +78,12 @@ const departmentsData = [
             "Holistic support for healthy growth and mental well-being through nutrition guidance and psychological counseling.",
         icon: Users,
     },
+    {
+        title: "Fetal Medicine",
+        description:
+            "Comprehensive prenatal screening and fetal health monitoring for safe and healthy pregnancies.",
+        icon: Baby,
+    }
 ];
 
 export default departmentsData;

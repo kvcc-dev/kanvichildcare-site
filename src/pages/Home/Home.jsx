@@ -35,6 +35,18 @@ const Home = () => {
             Super Speciality Clinic
           </h1>
 
+          {/* Punch Line – Quiet Emphasis Badge */}
+
+          <div className="mb-10">
+            <div className="flex items-center justify-center gap-4">
+              <span className="h-px w-12 bg-teal-200" />
+              <p className="text-lg md:text-xl font-semibold text-teal-700 tracking-wide">
+                Child Health is a Right — Not a Privilege
+              </p>
+              <span className="h-px w-12 bg-teal-200" />
+            </div>
+          </div>
+
 
 
           {/* Care Philosophy */}

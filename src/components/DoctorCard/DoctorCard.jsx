@@ -57,12 +57,14 @@ const DoctorCard = ({
           </p>
 
           <div className="mt-3 space-y-1">
-            <p className="text-xs md:text-sm text-gray-500">
-              Registration No:
-              <span className="font-medium text-gray-700 ml-1">
-                {registration}
-              </span>
-            </p>
+            {registration && (
+              <p className="text-xs md:text-sm text-gray-500">
+                Registration No:
+                <span className="font-medium text-gray-700 ml-1">
+                  {registration}
+                </span>
+              </p>
+            )}
 
             <p className="text-sm text-gray-700 font-medium">
               {qualifications}

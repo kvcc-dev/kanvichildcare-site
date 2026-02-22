@@ -129,6 +129,51 @@ const doctors = [
     ],
     image: "/assets/doctors/dr-girija-sachdev.png",
   },
+  {
+    id: "vishakha-davidasrao-ambhure",
+    name: "Vishakha Davidasrao Ambhure",
+    speciality: "Nutritionist & Weight Management Specialist",
+    registration: "",
+    qualifications: "Diploma in Nutrition and Dietetics",
+    experience:
+      "Provides personalized nutritional guidance with a focus on healthy weight management, balanced diets, and lifestyle-based nutrition planning.",
+    interests: [
+      "Weight management",
+      "Child and family nutrition",
+      "Healthy lifestyle counseling",
+    ],
+    image: "/assets/doctors/vishakha-ambhure.png",
+  },
+  {
+    id: "dr-archana-manikrao-patil",
+    name: "Dr. Archana Manikrao Patil",
+    speciality: "Fetal Medicine Consultant",
+    registration: "MMC 2002/09/3405",
+    qualifications: "Fetal Medicine Consultant",
+    experience:
+      "Experienced consultant in fetal medicine, specializing in prenatal diagnosis, fetal well-being assessment, and high-risk pregnancy evaluation.",
+    interests: [
+      "Prenatal screening",
+      "Fetal anomaly detection",
+      "High-risk pregnancy care",
+    ],
+    image: "/assets/doctors/dr-archana-manikrao-patil.png",
+  },
+  {
+    id: "dr-avinash-sanap",
+    name: "Dr. Avinash Sanap",
+    speciality: "Pediatric Neurologist",
+    registration: "MMC 2017115317",
+    qualifications: "MBBS, MD (Pediatrics)",
+    experience:
+      "Specialist in evaluation and management of neurological disorders in children, including developmental delays, seizures, and neurodevelopmental conditions.",
+    interests: [
+      "Pediatric epilepsy",
+      "Neurodevelopmental disorders",
+      "Childhood neurological conditions",
+    ],
+    image: "/assets/doctors/dr-avinash-sanap.png",
+  },
 ];
 
 export default doctors;

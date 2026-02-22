@@ -63,7 +63,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1DcyqFXsLS/"
                 className="bg-white/10 p-3 rounded-full hover:bg-white/20 transition"
                 aria-label="Facebook"
               >
@@ -71,7 +71,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/kanvichildcare"
                 className="bg-white/10 p-3 rounded-full hover:bg-white/20 transition"
                 aria-label="Instagram"
               >
@@ -87,7 +87,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/kanvichildcare"
                 className="bg-white/10 p-3 rounded-full hover:bg-white/20 transition"
                 aria-label="X"
               >

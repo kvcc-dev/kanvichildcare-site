@@ -105,6 +105,28 @@ const EducationAccordion = () => {
                     </div>
                 </AccordionItem>
 
+                {/* VIDEO Virtual Autism */}
+                <AccordionItem
+                    title="Is Screen Time Affecting Your Child's Development?"
+                    icon={Video}
+                >
+                    <p className="mb-4">
+                        Early and uncontrolled exposure to screens can significantly impact a child's brain development,
+                        behavior, and communication skills.
+                        Learn how excessive screen time may contribute to virtual autism-like symptoms
+                        and what parents can do to protect their child's developmental health.
+                    </p>
+
+                    <div className="aspect-video rounded-xl overflow-hidden shadow-md">
+                        <iframe
+                            src="https://www.youtube.com/embed/02DTPGfzclk"
+                            className="w-full h-full"
+                            allowFullScreen
+                            title="Understanding Thalassemia in Children"
+                        />
+                    </div>
+                </AccordionItem>
+
                 {/* PPT - THALASSEMIA */}
                 <AccordionItem title="Thalassemia" icon={Presentation}>
                     <p className="mb-3">

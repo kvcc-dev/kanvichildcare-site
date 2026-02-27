@@ -174,6 +174,21 @@ const doctors = [
     ],
     image: "/assets/doctors/dr-avinash-sanap.png",
   },
+  {
+    id: "dr-prakash-ambekar",
+    name: "Dr. Prakash Ambekar",
+    speciality: "Psychiatrist",
+    registration: "MMC 2007/05/1593",
+    qualifications: "MBBS, MD (Psychiatry)",
+    experience:
+      "Experienced psychiatrist specializing in the assessment and management of mental and emotional health conditions, with a patient-centered and compassionate approach.",
+    interests: [
+      "Child and adolescent mental health",
+      "Behavioral and emotional disorders",
+      "Stress, anxiety, and mood disorders",
+    ],
+    image: "/assets/doctors/dr-prakash-ambekar.png",
+  },
 ];
 
 export default doctors;

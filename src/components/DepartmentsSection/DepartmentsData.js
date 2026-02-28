@@ -83,7 +83,13 @@ const departmentsData = [
         description:
             "Comprehensive prenatal screening and fetal health monitoring for safe and healthy pregnancies.",
         icon: Baby,
-    }
+    },
+    {
+        title: "Psychiatry",
+        description:
+            "Diagnosis and management of emotional, behavioral, and mental health conditions in children and adolescents, promoting overall psychological well-being.",
+        icon: Brain,
+    },
 ];
 
 export default departmentsData;

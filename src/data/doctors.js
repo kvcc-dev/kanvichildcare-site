@@ -189,6 +189,24 @@ const doctors = [
     ],
     image: "/assets/doctors/dr-prakash-ambekar.png",
   },
+  {
+    id: "mayuri-zanwar",
+    name: "Mayuri Zanwar",
+    speciality: "Child Psychologist",
+    //registration: "", // add registration number if available
+    qualifications:
+      "MA (Psychology)",
+    experience:
+      "Child psychologist specializing in emotional, behavioral, and developmental concerns in children and adolescents, with expertise in Autism Spectrum Disorder (ASD). Focused on school-related challenges, social skills development, and overall psychological well-being.",
+    interests: [
+      "ABA (Applied Behavior Analysis)",
+      "Child and adolescent psychology",
+      "Emotional and behavioral issues in children",
+      "School psychology and learning difficulties",
+      "Parental guidance and counseling",
+    ],
+    image: "/assets/doctors/mayuri-zanwar.png",
+  },
 ];
 
 export default doctors;

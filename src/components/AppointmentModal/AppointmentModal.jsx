@@ -1,15 +1,25 @@
-import { UserRound } from "lucide-react";
 
 import { useState, useMemo } from "react";
 
 import Modal from "../Modal/Modal";
 import doctors from "../../data/doctors";
+import FloatingWhatsApp from "../FloatingContact/FloatingWhatsApp";
 
 const AppointmentModal = ({ isOpen, onClose }) => {
   const [selectedSpeciality, setSelectedSpeciality] = useState("All");
   const [searchText, setSearchText] = useState("");
   const [selectedDoctor, setSelectedDoctor] = useState(null);
 
+  const resetState = () => {
+    setSelectedDoctor(null);
+    setSearchText("");
+    setSelectedSpeciality("All");
+  };
+
+  const handleClose = () => {
+    resetState();
+    onClose();
+  };
   /* ------------------ SPECIALITIES ------------------ */
   const specialities = useMemo(() => {
     return ["All", ...new Set(doctors.map((doc) => doc.speciality))];
@@ -31,7 +41,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
   }, [selectedSpeciality, searchText]);
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose}>
+    <Modal isOpen={isOpen} onClose={handleClose}>
       {!selectedDoctor ? (
         <>
           {/* ------------------ HEADER ------------------ */}
@@ -137,13 +147,28 @@ const AppointmentModal = ({ isOpen, onClose }) => {
             along with your details.
           </p>
 
-          {/* Call Button */}
-          <a
-            href="tel:+919529952129"
-            className="inline-block bg-green-600 text-white px-6 py-3 rounded-xl text-sm font-medium hover:bg-green-700 transition"
-          >
-            📞 Call Now
-          </a>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-3 text-center">
+
+            {/* Call Button */}
+            <a
+              href="tel:+919529952129"
+              className="
+      flex items-center justify-center gap-2
+      bg-green-600 text-white
+      px-6 py-3
+      rounded-xl text-sm font-medium
+      hover:bg-green-700
+      transition
+      w-full sm:w-auto
+    "
+            >
+              📞 Call Now
+            </a>
+
+            {/* WhatsApp Button */}
+            <FloatingWhatsApp />
+
+          </div>
 
           {/* Back */}
           <button

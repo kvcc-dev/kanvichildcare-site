@@ -9,6 +9,8 @@ import {
     Scissors,
     ShieldPlus,
     Users,
+    Ear,
+    Eye,
 } from "lucide-react";
 
 const departmentsData = [
@@ -89,7 +91,18 @@ const departmentsData = [
         description:
             "Diagnosis and management of emotional, behavioral, and mental health conditions in children and adolescents, promoting overall psychological well-being.",
         icon: Brain,
+    }, {
+        title: "Audiology & Speech Therapy",
+        description:
+            "Assessment and treatment of hearing, speech, and communication disorders in children, including speech delay and hearing impairment.",
+        icon: Ear, // or Mic / Volume2 if Ear is not used
     },
+    {
+        title: "Paediatric Ophthalmology",
+        description:
+            "Diagnosis and treatment of eye conditions in children including vision problems, squint, and eye infections.",
+        icon: Eye,
+    }
 ];
 
 export default departmentsData;

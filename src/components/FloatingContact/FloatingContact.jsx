@@ -7,6 +7,7 @@ import {
   MapPin,
   X
 } from "lucide-react";
+import FloatingWhatsApp from "./FloatingWhatsApp";
 
 const FloatingContact = () => {
   const [open, setOpen] = useState(false);
@@ -28,7 +29,8 @@ const FloatingContact = () => {
   return (
     <>
       {/* Floating Button */}
-      <div className="fixed bottom-6 right-6 z-50">
+      <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+        <FloatingWhatsApp />
         <button
           onClick={() => setOpen(true)}
           className="

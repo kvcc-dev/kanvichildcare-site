@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
 
       <Footer />
       {/* <FloatingEducation /> */}
+
       <FloatingContact />
     </>
   );

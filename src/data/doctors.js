@@ -206,6 +206,37 @@ const doctors = [
       "Parental guidance and counseling",
     ],
     image: "/assets/doctors/mayuri-zanwar.png",
+  }, {
+    id: "pankaj-shinde",
+    name: "Pankaj Shinde",
+    speciality: "Audiologist & Speech Language Pathologist",
+    registration: "A37603",
+    qualifications: "BASLP",
+    experience:
+      "Experienced audiologist and speech language pathologist specializing in the assessment and treatment of speech, language, and hearing disorders in children.",
+    interests: [
+      "Speech and language delay",
+      "Hearing assessment and rehabilitation",
+      "Communication disorders in children",
+    ],
+    image: "/assets/doctors/dr-pankaj-shinde.png",
+  },
+  {
+    id: "dr-sheetal-sanap-munde",
+    name: "Dr. Sheetal Sanap (Munde)",
+    speciality:
+      "Pediatric Ophthalmology, Squint & Neuro-ophthalmology",
+    registration: "MMC 2017073332",
+    qualifications:
+      "MBBS, MS (Ophthalmology), Fellowship in Pediatric Ophthalmology, Squint & Neuro-ophthalmology",
+    experience:
+      "Specialist in pediatric ophthalmology with expertise in diagnosing and managing vision problems, squint, and neuro-ophthalmic conditions in children.",
+    interests: [
+      "Pediatric vision disorders",
+      "Squint (strabismus) management",
+      "Neuro-ophthalmology",
+    ],
+    image: "/assets/doctors/dr-sheetal-sanap-munde.png",
   },
 ];
 

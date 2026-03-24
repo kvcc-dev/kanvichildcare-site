@@ -10,6 +10,8 @@ import WhyKanviSection from "../../components/WhyKanviSection/WhyKanviSection";
 import ServicesSection from "../../components/ServicesSection/ServicesSection";
 import DepartmentsSection from "../../components/DepartmentsSection/DepartmentsSection";
 import EducationAccordion from "../../components/FloatingEducation/EducationAccordian";
+import FoundersViewSection from "../../components/FoundersView/FoundersViewSection";
+import WhatsNewSection from "../../components/WhatsNewSection/WhatsNewSecion";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -93,6 +95,9 @@ const Home = () => {
           <WhyKanviSection />
         </RevealOnScroll>
       </section>
+
+      {/*What's New Section*/}
+      <WhatsNewSection />
       {/* Preventive Care SECTION */}
       <section id="preventive-care" className="relative overflow-hidden
   bg-transparent
@@ -121,6 +126,10 @@ const Home = () => {
           <ServicesSection />
         </RevealOnScroll>
       </section>
+
+
+      {/* Founders View */}
+      <FoundersViewSection />
 
       {/* ABOUT SECTION */}
       <RevealOnScroll delay={50}>
@@ -172,6 +181,7 @@ const Home = () => {
 
         </RevealOnScroll>
       </section>
+
       {/* ABOUT DOCTORS SECTION */}
 
       <section className="relative overflow-hidden

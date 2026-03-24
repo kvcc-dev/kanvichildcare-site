@@ -132,6 +132,49 @@ const EducationAccordion = () => {
                     </div>
                 </AccordionItem>
 
+                {/* PPT - WEANING */}
+                <AccordionItem title="Weaning" icon={Presentation}>
+                    <p className="mb-3">
+                        This presentation explains when and how to start weaning in infants,
+                        including the right time to introduce solid foods, recommended food choices,
+                        and tips to ensure proper nutrition and healthy growth.
+                    </p>
+
+                    <p className="text-xs text-gray-500 mb-3">
+                        Click on the slide to move to the next page.
+                    </p>
+
+                    <div className="aspect-video rounded-xl overflow-hidden shadow-md border">
+                        <iframe
+                            src="https://docs.google.com/presentation/d/e/2PACX-1vQ0sQJ5UHHAzk50Afe1uRVwU85KZfQBF4avTUzS2L5ewIbGfi9RtRzIj23M7pYFPA/pubembed?start=false&loop=true&delayms=3000"
+                            className="w-full h-full"
+                            allowFullScreen
+                            title="Weaning Presentation"
+                        />
+                    </div>
+                </AccordionItem>
+
+                {/* PPT - BENEFITS OF BREASTFEEDING */}
+                <AccordionItem title="Benefits of Breastfeeding" icon={Presentation}>
+                    <p className="mb-3">
+                        This presentation highlights the importance of breastfeeding, its benefits
+                        for both baby and mother, and how it supports healthy growth, immunity,
+                        and overall development in early life.
+                    </p>
+
+                    <p className="text-xs text-gray-500 mb-3">
+                        Click on the slide to move to the next page.
+                    </p>
+
+                    <div className="aspect-video rounded-xl overflow-hidden shadow-md border">
+                        <iframe
+                            src="https://docs.google.com/presentation/d/e/2PACX-1vQaD374xz7b9oO0vrlmgGdquejeEGJNWJRgyXch3hBaGssKgi8CLAA0oEGuzWcnew/pubembed?start=false&loop=true&delayms=3000"
+                            className="w-full h-full"
+                            allowFullScreen
+                            title="Benefits of Breastfeeding Presentation"
+                        />
+                    </div>
+                </AccordionItem>
                 {/* PPT - THALASSEMIA */}
                 <AccordionItem title="Thalassemia" icon={Presentation}>
                     <p className="mb-3">
